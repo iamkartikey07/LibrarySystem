@@ -2,11 +2,11 @@ public class Member{
     private String memberName;
     private int memberAge;
     private String address;
-    private String AADHAR;
+    private int AADHAR;
     private int count = 0;
     private int regId;
 
-    public Member(String memberName , int memberAge , String address ,String AADHAR , int regId){
+    public Member(String memberName , int memberAge , String address , int AADHAR , int regId){
         this.memberName = memberName;
         this.memberAge = memberAge;
         this.address = address;
@@ -32,7 +32,7 @@ public class Member{
     public String getAddress(){
         return address;
     }
-    public String getAADHAR(){
+    public int getAADHAR(){
         return AADHAR;
     }
     public int getRegId(){
